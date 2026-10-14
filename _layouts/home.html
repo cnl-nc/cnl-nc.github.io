@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="home">
+  <header class="site-heading">
+    <h1 class="site-heading-title">{{ page.title | default: site.title | escape }}</h1>
+    {%- if page.subtitle %}
+    <p class="site-heading-subtitle">{{ page.subtitle | escape }}</p>
+    {%- endif %}
+  </header>
+
+  {%- if page.top_image %}
+  <figure class="top-image">
+    <img src="{{ page.top_image | relative_url }}" alt="{{ page.title | escape }}">
+  </figure>
+  {%- endif %}
+
+  {{ content }}
+</div>

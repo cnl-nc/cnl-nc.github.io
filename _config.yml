@@ -1,0 +1,25 @@
+# Site settings
+title: Computer Network Laboratories
+description: >-
+  東京大学 情報基盤センター ネットワーク研究部門 研究室
+author: Computer Network Laboratories
+email: ""
+
+url: "https://www.cnl.nc.u-tokyo.ac.jp"
+baseurl: ""
+
+lang: "ja"
+
+# Theme
+theme: minima
+
+# 1ページ構成なのでヘッダーのナビゲーションは出さない
+header_pages: []
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .ruby-version
+  - vendor
+  - README.md

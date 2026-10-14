@@ -1,0 +1,68 @@
+# faculty: url は研究室ホームページ（空なら表示しない）
+
+faculty:
+  - { name: 工藤 知宏,
+      position: 教授,
+      affiliation: [ 工学系 ],
+      affi_url: [ "https://www.eeis.t.u-tokyo.ac.jp/" ],
+      url: "https://park.itc.u-tokyo.ac.jp/kudoh/" }
+  - { name: 関谷 勇司,
+      position: 教授,
+      affiliation: [ 情報理工学系 ],
+      affi_url: [ "https://www.i.u-tokyo.ac.jp/edu/course/ipc/index.shtml" ],
+      url: "https://www.sekiya-lab.info/" }
+  - { name: 佐藤 周行,
+      position: 特任教授,
+      affiliation: [ 工学系 ],
+      affi_url: [ "https://www.eeis.t.u-tokyo.ac.jp/" ],
+      url: "https://www-sato.cc.u-tokyo.ac.jp/" }
+  - { name: 中山 雅哉,
+      position: 准教授,
+      affiliation: [ 工学系 ],
+      affi_url: [ "https://www.eeis.t.u-tokyo.ac.jp/" ],
+      url: "https://nashi.nc.u-tokyo.ac.jp/index-j.html" }
+  - { name: 小川 剛史,
+      position: 准教授,
+      affiliation: [ 工学系, 学環 ],
+      affi_url: [ "https://www.eeis.t.u-tokyo.ac.jp/",
+                  "https://www.iii.u-tokyo.ac.jp/education/courses/emergingdi" ],
+      url: "https://www.ogawa-lab.org/" }
+  - { name: 中村 遼,
+      position: 准教授,
+      affiliation: [ 工学系 ],
+      affi_url: [ "https://www.eeis.t.u-tokyo.ac.jp/" ],
+      url: "https://lab.haeena.dev/"}
+  - { name: 近藤 大嗣,
+      position: 准教授,
+      affiliation: [ 工学系 ],
+      affi_url: [ "https://www.eeis.t.u-tokyo.ac.jp/" ],
+      url: "https://dkondo-lab.github.io/" }
+  - { name: 中村 文隆,
+      position: 助教,
+      affiliation: [ 工学系 ],
+      affi_url: [ "https://www.eeis.t.u-tokyo.ac.jp/" ],
+      url: }
+
+students:
+  - { name: 于 俊威,       lab: 佐藤研, affiliation: 工学系,  since: 2024 }
+  - { name: 坂巻 翔太,     lab: 工藤研, affiliation: 工学系,  since: 2026 }
+  - { name: 菊池 拓真,     lab: 中山研, affiliation: 工学系,  since: 2023 }
+  - { name: 石丸 翼,       lab: 中山研, affiliation: 工学系,  since: 2025 }
+  - { name: 井爪 優輔,     lab: 中村研, affiliation: 工学系,  since: 2025 }
+  - { name: 黒田 楓馬,     lab: 小川研, affiliation: 工学系,  since: 2025 } 
+  - { name: 瀧口 流星,     lab: 工藤研, affiliation: 工学系,  since: 2025 }
+  - { name: 瀧本 英智,     lab: 中山研, affiliation: 工学系,  since: 2025 }
+  - { name: 味八木 真理子, lab: 小川研, affiliation: 学府,    since: 2025 }
+  - { name: 安 在帥,       lab: 中村研, affiliation: 工学系,  since: 2025 }
+  - { name: 江夏 功一,     lab: 小川研, affiliation: 工学系,  since: 2026 }
+  - { name: 大崎 敦也,     lab: 中村研, affiliation: 工学系,  since: 2026 }
+  - { name: 冨田 賢志,     lab: 近藤研, affiliation: 工学系,  since: 2026 }
+  - { name: 藤本 祥人,     lab: 工藤研, affiliation: 工学系,  since: 2026 }
+  - { name: 山本 和季,     lab: 小川研, affiliation: 工学系,  since: 2026 }
+  - { name: 呉 卓勲,       lab: 小川研, affiliation: 工学系,  since: 2026 }
+  - { name: 程 暁帆,       lab: 中村研, affiliation: 工学系,  since: 2026 }
+  - { name: 梁 澤棟,       lab: 工藤研, affiliation: 工学系,  since: 2026 }
+
+
+
+

@@ -1,0 +1,183 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
+// 色（旧サイトに合わせる）
+$background-color: #ffffff;
+$text-color:       #3b3b3b;
+$title-color:      #323030;
+$heading-color:    #000000;
+$top-bar-color:    #ededed;
+
+// 本文の行間（minima の既定は 1.5）
+$base-line-height: 1.8;
+
+// 見出しフォント
+$heading-font: "Arvo", Georgia, serif;
+
+@import "minima";
+
+h1, h2, h3, h4 {
+  font-family: $heading-font;
+}
+
+h2, h3, h4 {
+  color: $heading-color;
+}
+
+// 本文の字間（和文が詰まって見えるのを緩和）
+.page-content p {
+  letter-spacing: 0.03em;
+}
+
+// 本文中のセクション見出しは中央寄せ
+.page-content h2,
+.page-content h3 {
+  text-align: center;
+}
+
+// ページ最上部の横線
+body {
+  border-top: 40px solid $top-bar-color;
+}
+
+// 全体の幅
+.wrapper {
+  max-width: 80%;
+}
+
+// top-bar と heading の間を詰める
+.page-content {
+  padding-top: 1rem;
+}
+
+.site-heading {
+  margin: 0 0 1.5rem;
+}
+
+.site-heading-title {
+  color: $title-color;
+  font-family: $heading-font;
+  font-weight: normal;
+  font-size: 2.8rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.25rem;
+}
+
+.site-heading-subtitle {
+  color: $text-color;
+  margin: 0;
+}
+
+.top-image {
+  margin: 0 0 2rem;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+}
+
+// メンバーテーブル
+$table-border-color: #e5e5e5;
+
+.table-wrap {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.member-table {
+    
+  width: 80%;
+  border: none;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  margin: 0 auto;
+
+  th,
+  td {
+    border: none;
+    padding: 0.65rem 1rem;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  thead th {
+    background: none;
+    color: $title-color;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-bottom: 2px solid $title-color;
+  }
+
+  tbody tr {
+    background: none;
+    border-bottom: 1px solid $table-border-color;
+    transition: background-color 0.15s;
+
+    &:nth-child(even) {
+      background: none;
+    }
+
+    &:hover {
+      background-color: $top-bar-color;
+    }
+  }
+
+  td.name {
+    color: $title-color;
+    font-weight: 700;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// フッター
+.site-footer {
+  background-color: $top-bar-color;
+  border-top: none;
+  padding: 1.5rem 0;
+  text-align: right;
+
+  p {
+    margin: 0;
+  }
+}
+
+.site-footer-title {
+  color: $title-color;
+  font-weight: 700;
+}
+
+.site-footer-subtitle {
+  color: $text-color;
+  font-size: 0.875rem;
+}
+
+// 列ごとの寄せ
+// Faculty: 氏名・職位・所属 を中央
+.faculty-table {
+  th:nth-child(-n+3),
+  td:nth-child(-n+3) {
+    text-align: center;
+  }
+}
+
+// Students: 全列を中央
+.student-table {
+  th,
+  td {
+    text-align: center;
+  }
+}
